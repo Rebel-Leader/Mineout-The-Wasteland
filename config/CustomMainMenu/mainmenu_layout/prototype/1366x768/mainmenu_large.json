@@ -1,0 +1,219 @@
+{
+    "images":
+    {
+		"menu_container":
+		{
+			"image" : "textures:gui/large/menuback.png",
+			"posX" : 50,
+			"posY" : -239,
+			"width" : 175,
+			"height" : 768,
+			"alignment" : "bottom_left"
+		},
+		
+		"modpack":
+		{
+            "image" : "textures:gui/auto/mineout.png",
+            "posX" : 55,
+            "posY" : 30,
+            "width" : 160,
+            "height" : 60,
+            "alignment" : "top_left"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 64,
+            "posY" : -25,
+            "width" : 150,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "textures:gui/large/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "Multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 64,
+            "posY" : 0,
+            "width" : 150,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "textures:gui/large/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+				"gui" : "multiplayer"
+            }
+        },
+		
+		"Changelogs":
+        {
+            "text" : "Changelog",
+            "posX" : 64,
+            "posY" : 25,
+            "width" : 150,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "textures:gui/large/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+				"gui" : "custom.changelogs"
+            }
+        },
+
+        "Mods":
+        {
+            "text" : "Mods",
+            "posX" : 64,
+            "posY" : 50,
+            "width" : 150,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "textures:gui/large/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+				"gui" : "mods"
+            }
+        },
+		
+        "options":
+        {
+            "text" : "Options",
+            "posX" : 64,
+            "posY" : 75,
+            "width" : 150,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "textures:gui/large/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 64,
+            "posY" : 100,
+            "width" : 150,
+            "height" : 20,
+			"alignment" : "left_center",
+			"texture" : "textures:gui/large/button.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },		
+                
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "textures:gui/auto/refresh.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+	
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -65,
+            "posY" : -13,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+        },
+		"mcgame":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : -50,
+            "posY" : -19,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+		},
+		"forge":{
+			"text" : "Forge #forgeversion#",
+            "posX" : -60,
+            "posY" : -25,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+		},
+		"modpack":{
+			"text" : "Mineout: The Wasteland v1.3",
+            "posX" : -85,
+            "posY" : -31,
+			"fontSize" : .6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_right"
+		},
+		"newsLine1":{
+			"text" : "",
+            "posX" : -100,
+            "posY" : 15,
+			"fontSize" : 2.5,
+			"color" : 16711680,
+			"hoverColor" : 16711680,
+            "alignment" : "top_center"
+		},
+		"newsLine2":{
+			"text" : "",
+            "posX" : -100,
+            "posY" : 40,
+			"fontSize" : 2.5,
+            "color" : 16711680,
+			"hoverColor" : 16711680,
+            "alignment" : "top_center"
+		},
+		"newsLine3":{
+			"text" : "",
+            "posX" : -140,
+            "posY" : 33,
+			"fontSize" : .8,
+            "color" : 16711680,
+			"hoverColor" : 16711680,
+            "alignment" : "top_right"
+		}
+	},
+    
+    "other":
+	{
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["textures:backgrounds/screenshot1.png","textures:backgrounds/screenshot2.png","textures:backgrounds/screenshot3.png","textures:backgrounds/screenshot4.png","textures:backgrounds/screenshot5.png","textures:backgrounds/screenshot6.png"],
+                "displayDuration" : 220,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}

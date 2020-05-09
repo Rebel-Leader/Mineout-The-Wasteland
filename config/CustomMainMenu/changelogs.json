@@ -1,0 +1,148 @@
+{
+    "images":
+    {
+		"menu_container":
+		{
+			"image" : "textures:gui/auto/changelogpanel.png",
+			"posX" : -175,
+			"posY" : -100,
+			"width" : 350,
+			"height" : 225,
+			"alignment" : "center"
+		}
+    },
+    
+    "buttons":
+    {
+		"gotopage":
+        {
+            "text" : "Go to Page",
+            "posX" : -95,
+            "posY" : -50,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "bottom_center",
+			"texture" : "textures:gui/auto/longbutton.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.technicpack.net/modpack/mineout-the-wasteland.1128105/changelog"
+            }
+        },
+		
+		"backtomenu":
+        {
+            "text" : "Back to Menu",
+            "posX" : -95,
+            "posY" : -25,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "bottom_center",
+			"texture" : "textures:gui/auto/longbutton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.mainmenu"
+            }
+        }
+    },
+    
+    "texts":
+    {
+		"header":
+        {
+            "text" : "Changelog v1.3",
+            "posX" : -70,
+            "posY" : -95,
+            "color" : -1,
+			"fontSize" : 2,
+            "alignment" : "center"
+        },
+	
+		"whatisnew":
+		{
+			"text" : "What's new in this version ?",
+            "posX" : -63,
+            "posY" : -75,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+		
+		"newfeatures":
+		{
+			"text" : "Features (Summary) :",
+            "posX" : -150,
+            "posY" : -50,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+		"new1":
+		{
+			"text" : "- Mod Option is improved.",
+            "posX" : -150,
+            "posY" : -35,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+		"new2":
+		{
+			"text" : "- UI/Book Interface has been fixed.",
+            "posX" : -150,
+            "posY" : -25,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+		"new3":
+		{
+			"text" : "- Fixed a lot of conflicting bugs.",
+            "posX" : -150,
+            "posY" : -15,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+		"new4":
+		{
+			"text" : "- New FTB Supported Mods (Utilities).",
+            "posX" : -150,
+            "posY" : -5,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+		"new5":
+		{
+			"text" : "- Tweaked the generate loot items.",
+            "posX" : -150,
+            "posY" : 5,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		},
+	
+		
+	
+		"more":
+		{
+			"text" : "For more details info at modpack changelog page!",
+            "posX" : -150,
+            "posY" : 20,
+            "color" : -1,
+			"fontSize" : 1,
+            "alignment" : "center"
+		}
+    },
+    
+    "other":
+	{
+        "background":
+        {
+            "image" : "textures:gui/auto/backcity.png",
+			"mode" : "stretch"
+        }
+    }
+}
