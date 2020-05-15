@@ -16,7 +16,7 @@
     {
 		"gotopage":
         {
-            "text" : "Go to Page",
+            "text" : "Go to Patch Notes",
             "posX" : -95,
             "posY" : -50,
             "width" : 200,
@@ -26,7 +26,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://www.technicpack.net/modpack/mineout-the-wasteland.1128105/changelog"
+                "link" : "https://discord.com/channels/388624850417090561/709088614289506435"
             }
         },
 		
@@ -51,7 +51,7 @@
     {
 		"header":
         {
-            "text" : "Changelog v1.3",
+            "text" : "Changelog v1.4",
             "posX" : -70,
             "posY" : -95,
             "color" : -1,
@@ -80,55 +80,17 @@
 		},
 		"new1":
 		{
-			"text" : "- Mod Option is improved.",
+			"text" : "(Not Available Yet!)",
             "posX" : -150,
             "posY" : -35,
             "color" : -1,
 			"fontSize" : 1,
             "alignment" : "center"
 		},
-		"new2":
-		{
-			"text" : "- UI/Book Interface has been fixed.",
-            "posX" : -150,
-            "posY" : -25,
-            "color" : -1,
-			"fontSize" : 1,
-            "alignment" : "center"
-		},
-		"new3":
-		{
-			"text" : "- Fixed a lot of conflicting bugs.",
-            "posX" : -150,
-            "posY" : -15,
-            "color" : -1,
-			"fontSize" : 1,
-            "alignment" : "center"
-		},
-		"new4":
-		{
-			"text" : "- New FTB Supported Mods (Utilities).",
-            "posX" : -150,
-            "posY" : -5,
-            "color" : -1,
-			"fontSize" : 1,
-            "alignment" : "center"
-		},
-		"new5":
-		{
-			"text" : "- Tweaked the generate loot items.",
-            "posX" : -150,
-            "posY" : 5,
-            "color" : -1,
-			"fontSize" : 1,
-            "alignment" : "center"
-		},
-	
-		
 	
 		"more":
 		{
-			"text" : "For more details info at modpack changelog page!",
+			"text" : "Check the builds at Mineout Discord Server!",
             "posX" : -150,
             "posY" : 20,
             "color" : -1,

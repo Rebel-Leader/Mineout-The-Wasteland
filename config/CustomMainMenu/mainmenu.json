@@ -155,8 +155,8 @@
             "alignment" : "bottom_right"
 		},
 		"modpack":{
-			"text" : "Mineout: The Wasteland v1.3",
-            "posX" : -85,
+			"text" : "Mineout: The Wasteland v1.4a Build #2",
+            "posX" : -115,
             "posY" : -31,
 			"fontSize" : .6,
             "color" : -1,
