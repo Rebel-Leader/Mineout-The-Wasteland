@@ -1,11 +1,11 @@
-#Thu Jan 04 11:09:04 ICT 2018
+#Fri May 15 19:06:47 ICT 2020
+shaderPack=
 TexMinFilB=0
 shadowResMul=1.0
 tweakBlockDamage=false
 TexMagFilB=0
 oldLighting=true
 handDepthMul=0.125
-shaderPack=
 TexMinFilS=0
 renderResMul=1.0
 TexMagFilS=0
@@ -15,3 +15,5 @@ TexMagFilN=0
 normalMapEnabled=true
 cloudShadow=true
 specularMapEnabled=true
+antialiasingLevel=0
+oldHandLight=default
