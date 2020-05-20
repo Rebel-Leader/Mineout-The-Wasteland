@@ -113,6 +113,13 @@ recipes.remove(<flansmod:dwCompSteelIngot>);
 recipes.remove(<flansmod:dwDustIron>);
 recipes.remove(<Mekanism:ArmoredJetpack>);
 recipes.remove(<Mekanism:AtomicDisassembler>);
+recipes.remove(<Lumberjack:lumberaxeWood>);
+recipes.remove(<Lumberjack:lumberaxeStone>);
+recipes.remove(<Lumberjack:lumberaxeGold>);
+recipes.remove(<Lumberjack:lumberaxeMitril>);
+recipes.remove(<Lumberjack:lumberaxeDemonic>);
+recipes.remove(<Lumberjack:lumberaxeFrost>);
+recipes.remove(<Lumberjack:Realemerald>);
 
 <ezwastelands:ezwastelandblock>.displayName = "Dried Dirt";
 <SimpleAchievements:sa.achievementBook>.displayName = "Journey Book";
