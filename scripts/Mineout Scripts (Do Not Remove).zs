@@ -116,10 +116,11 @@ recipes.remove(<Mekanism:AtomicDisassembler>);
 recipes.remove(<Lumberjack:lumberaxeWood>);
 recipes.remove(<Lumberjack:lumberaxeStone>);
 recipes.remove(<Lumberjack:lumberaxeGold>);
-recipes.remove(<Lumberjack:lumberaxeMitril>);
+recipes.remove(<Lumberjack:lumberaxeMithril>);
 recipes.remove(<Lumberjack:lumberaxeDemonic>);
 recipes.remove(<Lumberjack:lumberaxeFrost>);
-recipes.remove(<Lumberjack:Realemerald>);
+recipes.remove(<Lumberjack:lumberaxeRealemerald>);
+
 
 <ezwastelands:ezwastelandblock>.displayName = "Dried Dirt";
 <SimpleAchievements:sa.achievementBook>.displayName = "Journey Book";
@@ -180,7 +181,6 @@ recipes.addShaped(<minecraft:grass>, [[<minecraft:wheat_seeds>], [<minecraft:dir
 recipes.addShaped(<minecraft:dirt>, [[<ezwastelands:ezwastelandblock>], [<minecraft:water_bucket>.giveBack(<minecraft:bucket>)]]);
 recipes.addShaped(<nnn:NetherGate>, [[<ore:oreObsidian>, <ore:oreObsidian>, <ore:oreObsidian>], [<ore:oreObsidian>, <ore:alloyElite>, <ore:oreObsidian>], [<ore:oreObsidian>, <ore:oreObsidian>, <ore:oreObsidian>]]);
 recipes.addShaped(<flansmod:dwUnfiredFiberglass> * 2, [[<ore:sand>, <minecraft:hardened_clay>, <ore:sand>], [<minecraft:hardened_clay>, <flansmod:dwElectricDust>, <minecraft:hardened_clay>], [<ore:sand>, <minecraft:hardened_clay>, <ore:sand>]]);
-recipes.addShaped(<malisisdoors:item.forcefieldItem>, [[null, <DefenseTech:laserDesignator>, null], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>]]);
 recipes.addShaped(<flansmod:flansWorkbench:1>, [[<flansmod:dwMidSteelIngot>, <flansmod:dwElectricDust>, <flansmod:dwMidSteelIngot>], [<flansmod:dwElectricDust>, <ore:circuitAdvanced>, <flansmod:dwElectricDust>], [<flansmod:dwMidSteelIngot>, <flansmod:dwElectricDust>, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:flansWorkbench>, [[<flansmod:dwIngotBrass>, <flansmod:dwPaperVehicle>, <flansmod:dwIngotBrass>], [<flansmod:dwMidSteelIngot>, <flansmod:dwEngineDynamic>, <flansmod:dwMidSteelIngot>], [<flansmod:dwMidSteelIngot>, <flansmod:dwEngineSteam>, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<NuclearCraft:material:7>, [[null, <flansmod:dwElectricDust>, null], [<ore:dustDiamond>, <flansmod:dwMidSteelIngot>, <ore:dustDiamond>], [null, <flansmod:dwElectricDust>, null]]);
@@ -285,12 +285,7 @@ recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:itemEnrichedAlloy>, <ore:in
 recipes.addShaped(<Mekanism:Robit>, [[null, <Mekanism:Ingot:4>, null], [<Mekanism:AtomicAlloy>, <OpenComputers:motionSensor>, <Mekanism:AtomicAlloy>], [<ore:ingotRefinedObsidian>, <OpenComputers:case2>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<Mekanism:MachineBlock2:15>, [[null, <Mekanism:MachineBlock2:14>, null], [<Mekanism:MachineBlock2:14>, <ore:circuitAdvanced>, <Mekanism:MachineBlock2:14>], [null, <Mekanism:MachineBlock2:14>, null]]);
 recipes.addShaped(<NuclearCraft:parts:5>, [[<ore:plateBasic>, <ore:plateBasic>, <ore:plateBasic>], [<ore:plateBasic>, <ore:universalReactant>, <ore:plateBasic>], [<ore:plateBasic>, <ore:plateBasic>, <ore:plateBasic>]]);
-
-
-
-
-
-
+recipes.addShaped(<malisisdoors:item.forcefieldItem>, [[null, <DefenseTech:laserDesignator>, null], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>]]);
 
 
 
