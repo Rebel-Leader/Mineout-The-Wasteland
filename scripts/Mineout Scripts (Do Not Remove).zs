@@ -285,7 +285,7 @@ recipes.addShaped(<Mekanism:MachineBlock2:1>, [[<ore:itemEnrichedAlloy>, <ore:in
 recipes.addShaped(<Mekanism:Robit>, [[null, <Mekanism:Ingot:4>, null], [<Mekanism:AtomicAlloy>, <OpenComputers:motionSensor>, <Mekanism:AtomicAlloy>], [<ore:ingotRefinedObsidian>, <OpenComputers:case2>, <ore:ingotRefinedObsidian>]]);
 recipes.addShaped(<Mekanism:MachineBlock2:15>, [[null, <Mekanism:MachineBlock2:14>, null], [<Mekanism:MachineBlock2:14>, <ore:circuitAdvanced>, <Mekanism:MachineBlock2:14>], [null, <Mekanism:MachineBlock2:14>, null]]);
 recipes.addShaped(<NuclearCraft:parts:5>, [[<ore:plateBasic>, <ore:plateBasic>, <ore:plateBasic>], [<ore:plateBasic>, <ore:universalReactant>, <ore:plateBasic>], [<ore:plateBasic>, <ore:plateBasic>, <ore:plateBasic>]]);
-recipes.addShaped(<malisisdoors:item.forcefieldItem>, [[null, <DefenseTech:laserDesignator>, null], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>]]);
+recipes.addShaped(<malisisdoors:item.forcefieldItem>, [[null, <Mekanism:AtomicAlloy>, null], [<ore:alloyElite>, <ore:circuitElite>, <ore:alloyElite>], [<Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>, <Mekanism:CompressedObsidian>]]);
 
 
 
